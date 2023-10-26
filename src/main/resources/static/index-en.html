@@ -30,18 +30,18 @@
     <div id="wb-bnr" class="container">
       <div class="row">
 
-        <!-- <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
+        <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
           <h2 class="wb-inv">Language selection</h2>
           <ul class="list-inline mrgn-bttm-0">
             <li>
-              <a lang="fr" hreflang="fr" href="ajax-fetch-fr.html">
+              <a lang="fr" hreflang="fr" href="index-fr.html-fr.html">
                 <span class="hidden-xs" translate="no">Français</span>
                 <abbr title="Français" translate="no"
                   class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr>
               </a>
             </li>
           </ul>
-        </section> -->
+        </section>
 
 
         <div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
@@ -191,8 +191,8 @@
       </table>
     </div>
     <div class="urlForm_container mrgn-tp-lg wb-frmvld">
-      <h4>URL &#8211; <span class="small">Please provide the URL of the website for which you would like to obtain certificate information</span></h4>
-      <form method="post" id="urlForm">
+      <h4>URL &#8211; <span class="small" lang="en-CA">Please provide the URL of the website for which you would like to obtain certificate information</span></h4>
+      <form onSubmit="return sendUrlAndFetchCertificate(this)" method="post" id="urlForm">
         <div class="urlInput_wrapper">
           <label for="userInputUrl" class="wb-inv">Enter URL</label>
           <input type="url" name="userInputUrl" id="userInputUrl" placeholder="https://">

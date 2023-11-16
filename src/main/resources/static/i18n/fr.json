@@ -1,0 +1,13 @@
+{
+  "dashboard": "Tableau de bord",
+  "colourLegend": "Notification visuelle d'expiration",
+  "colourLegendDescription": "Il s'agit d'une notification visuelle de la date d'expiration du certificat. La couleur de l'icône changera en fonction du nombre de jours restants avant l'expiration du certificat.",
+  "colorGreen": "Plus de 6 semaines",
+  "colorYellow": "Entre 6 semaines et 2 semaines",
+  "colorOrange": "Moins de 2 semaines",
+  "colorRed": "Expiré",
+  "listOfCertificates": "Liste des certificats",
+  "listOfCertificatesDescription": "Il s'agit d'une liste de tous les certificats actuellement dans le système. La liste peut être triée en cliquant sur les en-têtes de colonne.",
+  "url": "URL",
+  "urlRequest": "Veuillez fournir l'URL du site que vous souhaitez vérifier."
+}

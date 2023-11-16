@@ -19,6 +19,35 @@ userInputField.addEventListener("keydown", function (e) {
   }
 });
 
+// initialize values that will be used in the page
+
+
+// determine page language
+const lang = document.querySelector('html').getAttribute('lang');
+const i18nLink = `./i18n/${lang}.json`; // #en or #fr
+
+let expiredString = "Expired";
+let leftToExpireString = "left to expire";
+let monthsString = "months";
+let weeksString = "weeks";
+let daysString = "days";
+let hoursString = "hours";
+let minutesString = "minutes";
+
+
+// get values from a json file depending on the language with fetch
+const strings = fetch(i18nLink); // #en or #fr
+strings.then(response => response.json())
+    .then(data => {
+        monthsString = data.months;
+        weeksString = data.weeks;
+        daysString = data.days;
+        hoursString = data.hours;
+        minutesString = data.minutes;
+        leftToExpireString = data.leftToExpire;
+        expiredString = data.colourRed;
+    })
+
 // handling form submission with submit button (fetching POST request)
 const urlSubmitBtn = document.querySelector('#submitUrl');
 urlSubmitBtn.addEventListener('click', async function (e) {
@@ -157,30 +186,28 @@ function formatTimeRemaining(calculatedTimeRemaining) {
   const roundedHours = Math.round(hours);
   const roundedMinutes = Math.round(minutes);
 
-  const commonMessage = "left to expire"
-
   if (months >= 1) {
 
-    return `${roundedMonths} month(s) ${commonMessage}`;
+    return `${roundedMonths} ${monthsString} ${leftToExpireString}`;
 
   } else if (weeks >= 1) {
 
-    return `${roundedWeeks} week(s) ${commonMessage}`;
+    return `${roundedWeeks} ${weeksString} ${leftToExpireString}`;
 
   } else if (days >= 1) {
 
-    return `${roundedDays} day(s) ${commonMessage}`;
+    return `${roundedDays} ${daysString} ${leftToExpireString}`;
 
   } else if (hours >= 1) {
 
-    return `${roundedHours} hour(s) ${roundedMinutes} minute(s) ${commonMessage}`;
+    return `${roundedHours} ${hoursString} ${roundedMinutes} ${minutesString} ${leftToExpireString}`;
 
   } else if (minutes >= 1) {
 
-    return `${roundedMinutes} minute(s) ${commonMessage}`;
+    return `${roundedMinutes} ${minutesString} ${leftToExpireString}`;
 
   } else {
-    return "This certificate is expired";
+    return expiredString;
   }
 }
 

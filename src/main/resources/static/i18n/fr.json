@@ -1,13 +1,20 @@
 {
-  "dashboard": "Tableau de bord",
+  "colourGreen": "Plus de 6 semaines",
   "colourLegend": "Notification visuelle d'expiration",
   "colourLegendDescription": "Il s'agit d'une notification visuelle de la date d'expiration du certificat. La couleur de l'icône changera en fonction du nombre de jours restants avant l'expiration du certificat.",
-  "colorGreen": "Plus de 6 semaines",
-  "colorYellow": "Entre 6 semaines et 2 semaines",
-  "colorOrange": "Moins de 2 semaines",
-  "colorRed": "Expiré",
+  "colourOrange": "Moins de 2 semaines",
+  "colourRed": "Expiré",
+  "colourYellow": "Entre 6 semaines et 2 semaines",
+  "dashboard": "Tableau de bord",
+  "days": "jour(s)",
+  "expiry": "Expiration",
+  "hours": "heure(s)",
   "listOfCertificates": "Liste des certificats",
+  "leftToExpire": "restant à expirer",
   "listOfCertificatesDescription": "Il s'agit d'une liste de tous les certificats actuellement dans le système. La liste peut être triée en cliquant sur les en-têtes de colonne.",
+  "months": "mois",
   "url": "URL",
-  "urlRequest": "Veuillez fournir l'URL du site que vous souhaitez vérifier."
+  "urlRequest": "Veuillez fournir l'URL du site que vous souhaitez vérifier.",
+  "weeks": "semaine(s)",
+  "footer": "<h2 class=\"wb-inv\">À propos de ce site</h2>\n\n\n\t<div class=\"gc-main-footer\">\n\t\t<div class=\"container\">\n\t\t\t<nav>\n\t\t\t\t<h3>Gouvernement du Canada</h3>\n\t\t\t\t<ul class=\"list-col-xs-1 list-col-sm-2 list-col-md-3\"><li><a href=\"https://www.canada.ca/fr/contact.html\">Toutes les coordonnées</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/gouvernement/min.html\">Ministères et organismes</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/gouvernement/systeme.html\">À propos du gouvernement</a></li></ul>\n\t\t\t\t<h4><span class=\"wb-inv\">Thèmes et sujets</span></h4>\n\t\t\t\t<ul class=\"list-unstyled colcount-sm-2 colcount-md-3\"><li><a href=\"https://www.canada.ca/fr/services/emplois.html\">Emplois</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/immigration-citoyennete.html\">Immigration et citoyenneté</a></li>\n\t\t\t\t\t<li><a href=\"https://voyage.gc.ca/\">Voyage et tourisme</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/entreprises.html\">Entreprises</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/prestations.html\">Prestations</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/sante.html\">Santé</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/impots.html\">Impôts</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/environnement.html\">Environnement et ressources naturelles</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/defense.html\">Sécurité nationale et défense</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/culture.html\">Culture, histoire et sport</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/police.html\">Services de police, justice et urgences</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/transport.html\">Transport et infrastructure</a></li>\n\t\t\t\t\t<li><a href=\"https://www.international.gc.ca/world-monde/index.aspx?lang=fra\">Le Canada et le monde</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/finance.html\">Argent et finance</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/science.html\">Science et innovation</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/autochtones.html\">Autochtones</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/veterans-militaire.html\">Vétérans et militaires</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/services/jeunesse.html\">Jeunesse</a></li></ul>\n\t\t\t</nav>\n\t\t</div>\n\t</div>\n\n\t<div class=\"gc-sub-footer\">\n\t\t<div class=\"container d-flex align-items-center\">\n\t\t\t<nav>\n\t\t\t\t<h3 class=\"wb-inv\">Organisation du gouvernement du Canada</h3>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/sociaux.html\">Médias sociaux</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/mobile.html\">Applications mobiles</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/gouvernement/a-propos.html\">À propos de Canada.ca</a></li><li><a href=\"https://www.canada.ca/fr/transparence/avis.html\">Avis</a></li>\n\t\t\t\t\t<li><a href=\"https://www.canada.ca/fr/transparence/confidentialite.html\">Confidentialité</a></li></ul>\n\t\t\t</nav>\n\t\t\t<div class=\"wtrmrk align-self-end\">\n\t\t\t\t<img src=\"https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/wmms-blk.svg\" alt=\"Symbole du gouvernement du Canada\" />\n\t\t\t</div>\n\t\t</div>\n\t</div>"
 }
